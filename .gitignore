@@ -362,3 +362,5 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /Rugby Games/vcpkg_installed
+Rugby Games/vcpkg-configuration.json
+Rugby Games/vcpkg.json
