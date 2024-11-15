@@ -28,7 +28,9 @@
     <ClCompile Include="PlantCondition.cpp" />
     <ClCompile Include="Plant.cpp" />
     <ClCompile Include="PlantAction.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="Projectile.cpp" />
+    <ClCompile Include="RugbyScene.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="StateMachine.cpp" />
     <ClCompile Include="Transition.cpp" />
@@ -46,7 +48,9 @@
     <ClInclude Include="PlantCondition.h" />
     <ClInclude Include="Plant.h" />
     <ClInclude Include="PlantAction.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="Projectile.h" />
+    <ClInclude Include="RugbyScene.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="StateMachine.h" />
     <ClInclude Include="Transition.h" />
@@ -116,6 +120,9 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg">
+    <VcpkgEnableManifest>true</VcpkgEnableManifest>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

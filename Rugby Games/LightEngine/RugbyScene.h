@@ -5,10 +5,13 @@
 #include <list>
 
 class Entity;
+class Player;
 
 class RugbyScene : public Scene
 {
 	Entity* pEntitySelected;
+
+	Player* pPlayer;
 
 public:
 	void OnInitialize() override;
